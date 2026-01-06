@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int item1,item2,item3;
+    int finalbill;
+    int gst;
+    cout<<"enter the price of item1 \n";
+    cin>>item1;
+     cout<<"enter the price of item2 \n";
+    cin>>item2;
+     cout<<"enter the price of item3 \n";
+    cin>>item3;
+    gst=(18*(item1+item2+item3))/100;
+    finalbill=item1+item2+item3+gst;
+    cout<<"the final bill is "<<finalbill;
+}
